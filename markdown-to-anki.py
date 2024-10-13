@@ -6,7 +6,7 @@ def read_markdown_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return file.read()
 
-markdown_file_path = '/Users/vmitchell/Documents/Obsidian/Vault/Uni/Zusammenfassungen/Pharmakologie Zusammenfassung Kategorien.md'
+markdown_file_path = '/Users/vmitchell/Obsidian/Vault/Uni/Zusammenfassungen/Pharmakologie Zusammenfassung Kategorien.md'
 text = read_markdown_file(markdown_file_path)
 
 def markdown_to_html(text):
